@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Mitr">
+<style>
+body{
+font-family: Mitr;
+</style>
+		<title>สมัครสมาชิก</title>
+	</head>
+	<body><br>
+		<body style="background-color: #ffcc66;">
+		<!-- <center><img src="p_img/user.png" width="100px;" align='center'></center> -->
+		<div class="container ">
+		<div class="login">
+			<center><h1>สมัครสมาชิก</h1></center>
+		<form action="register.php" method="POST">
+			<div class="">
+				<div class="col-20">
+				<label for="Username" class="form-label">Username :</label>
+				<input type="text" class="form-control" name ="user" placeholder="Username" required>
+			</div>
+			<div class="col-20">
+				<label for="password" class="form-label">password :</label>
+				<input type="password" class="form-control"  name="pass" placeholder="Password" required>
+			</div>
+			<div class="col-20">
+			คำนำหน้า : <select class="form-control"  name="title">
+			<option value="นาย">นาย
+			<option value="นาง" >นาง
+			<option value="นางสาว">นางสาว
+			</select>
+			</div>
+			<div class="col-20">
+				<label for="exampleInputEmail1" class="form-label">ชื่อ :</label>
+				<input type="text" class="form-control"  name="fname" placeholder="กรุณาใส่ชื่อ" required>
+			</div>
+			<div class="col-20">
+				<label for="exampleInputEmail1" class="form-label">นามสกุล :</label>
+				<input type="text" class="form-control"  name="lname" placeholder="กรุณาใส่นามสกุล" required>
+			</div>
+			<div class="col-20">
+			เพศ : 
+			<select class="form-control"  name="gender">
+			<option value="ไม่ระบุเพศ">ไม่ระบุเพศ
+			<option value="ชาย" >ชาย
+			<option value="หญิง">หญิง
+			</select>	
+			</div>
+			<div class="col-20">
+				<label for="exampleInputEmail1" class="form-label">Email :</label>
+				<input type="email" class="form-control"  name="email" placeholder="Email"required>
+			</div>
+			<div class="col-20">
+				<label for="exampleInputEmail1" class="form-label">Social account :</label>
+				<input type="text" class="form-control"  name="Social_account" placeholder="โปรดระบุ"required>
+			</div>
+			<div class="col-20">
+				<label for="exampleInputEmail1" class="form-label">Phone :</label>
+				<input type="text" class="form-control"  name="phone" placeholder="092-121-1212"required>
+			</div>
+			<div class="col-20">
+			<div class="inputBox">
+                   <center> <p class="p-area">Address<span style="color: red;">&nbsp;*</span></p>
+                    <textarea name="address" cols="30" rows="4" placeholder="Address" required></textarea></center>
+                </div>
+                </div>
+			</center>
+<br>
+			<center><button type="submit" name="btn_register" class="btn btn-primary">สมัครสมาชิก</button></center>
+		
+		</div>
+</div>
+</div>
+</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://chancejs.com/chance.min.js"></script>
+	</body>
+</html>
